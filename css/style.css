@@ -1,0 +1,163 @@
+/** Elements (A-Z) **/
+
+* {
+    color: #000000;
+    font-family: 'Oxanium', cursive;
+    text-align: center;}
+
+a {
+    color: white;
+    text-decoration: none;}
+
+body {
+    background-image: url("../images/bluered.tiff");
+    background-size: 1500px;
+    margin: 0 auto;
+    width: 100%;}
+
+h1 {
+    color: white;
+    font-family: 'Racing Sans One', cursive;}
+
+h2 {
+    font-family: 'Racing Sans One', cursive;}
+
+li {
+    display: inline; 
+    font-size: 1.1vw;
+    padding: 5%;
+    width: 100%;}
+
+ul {
+    padding-inline-start: 0;}
+
+/** ID's (A-Z) **/
+
+#content {
+    background-color: white;
+    margin: auto;
+    outline: 3px solid black;
+    overflow: hidden;
+    width: 90%;}
+
+#footer {
+    background-color:rgb(16, 23, 54);
+    bottom: 0;
+    overflow: auto;
+    width: 100%;}
+
+#footer p {
+    color: white;}
+
+#header {
+    border-bottom: 5px solid rgb(127, 31, 31);}
+
+#nav {
+    background-image: linear-gradient(to right, rgb(16, 23, 54) , navy);
+    max-height: 3em;
+    padding: 0.5%;}
+
+#selected {
+    text-decoration: underline;
+    text-decoration-color: rgb(193, 158, 3);
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.3em;}
+
+/** Classes (A-Z) **/
+
+.article {
+    background-color: #efefef;
+    height: 30%;}
+
+.column1, .column2, .column3 {
+    float: left;
+    margin: 1%;
+    width: 31.3%;}
+
+.info {
+    font-size: 0.9em;
+    padding: 1em;
+    text-align: left;}
+
+.logo {
+    float: left;
+    height: 30px;
+    width: 150px;}
+
+.players {
+    height: 30rem auto;
+    max-width: 100%;
+    max-height: 100%;
+    outline: 0.3em solid rgb(255, 255, 255);
+    width: 20rem;}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /** Elements (A-Z) **/
+
+    h2 {
+        float: top;}
+
+    li {
+        font-size: 1.6vw;}
+
+    /** Classes (A-Z) **/
+
+    .column1, .column2, .column3 {
+        float: left;
+        margin: 1%;
+        width: 98%;}
+    
+    .desc {
+        float: top;}
+    
+    .info {
+        float: top;
+        padding-left: 14em;
+        text-align: center;}
+
+    .logo {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;}
+
+    .players {
+        float: left;
+        height: 14.5em;
+        margin-bottom: 1em;
+        max-height: 50%;
+        max-width: 50%;
+        width: 9.3em;}
+}
+
+
+@media screen and (max-width: 767px) {
+
+    /** Elements (A-Z) **/
+
+    li {
+
+        font-size: 2vw;
+        padding: 4%;}
+
+    /** ID's (A-Z) **/
+
+    #header {
+        float: top;
+        left: 0;
+        top: 0;}
+
+    /** Classes (A-Z) **/
+
+    .column1, .column2, .column3 {
+        display: block;
+        float: left;
+        width: 98%;}
+
+    .logo {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;}
+}
